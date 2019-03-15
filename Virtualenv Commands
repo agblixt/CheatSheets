@@ -1,0 +1,21 @@
+Virtualenv
+
+Create new environment (From inside folder for environment)
+
+virtualenv envname
+
+activate virtual environment
+
+source /envname/bin/activate
+
+Deactivate environment
+
+deactivate
+
+
+PIP
+
+To show installed packages
+
+Which pip
+
