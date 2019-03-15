@@ -7,12 +7,14 @@ Initial Configuration
 git config --global user.name "Aaron Blixt"
 git config --user.email "aaron@blixt.net.au"
 
+git config --values -- List global values
+
 
 Local Repositories
 ------------------
 
 git init	--Initialise local repository in current folder
-	
+
 git add <file>	-- Add file(s) to the staging area
 git add <*.ext>	-- Add all files with extension mating "ext" to staging area
 git add .	-- Add all untracked files / changes to staging area
