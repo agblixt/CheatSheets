@@ -21,7 +21,8 @@ git rm --cached <file>	-- Remove file from the staging area
 
 git status	-- Check what is in the staging area
 
-git commit	-- Commit changes
+git commit	-- Commit changes (Will open editor for commit message)
+git commit -m 'message'	--Commit changes with 'message' as the commit message
 
 
 Remote Repositories
