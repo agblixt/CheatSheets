@@ -41,6 +41,12 @@ git merge <branch name> -- merge branch to master. Do this from master
 Remote Repositories
 -------------------
 
+After creating repository on github:
+
+git remote add origin hhtps://github.com/agblixt/<repository name>.github	--You can copy and paste this line from github
+
+git push -u origin master	-- Initial push of local repository up to github
+
 git push	-- Push files up to remote repository
 
 git pull	-- Pull latest changes down from repository
