@@ -1,0 +1,35 @@
+GIT Commands
+============
+
+Initial Configuration
+---------------------
+
+git config --global user.name "Aaron Blixt"
+git config --user.email "aaron@blixt.net.au"
+
+
+Local Repositories
+------------------
+
+git init	--Initialise local repository in current folder
+	
+git add <file>	-- Add file(s) to the staging area
+git add <*.ext>	-- Add all files with extension mating "ext" to staging area
+git add .	-- Add all untracked files / changes to staging area
+
+git rm --cached <file>	-- Remove file from the staging area
+
+git status	-- Check what is in the staging area
+
+git commit	-- Commit changes
+
+
+Remote Repositories
+-------------------
+
+git push	-- Push files up to remote repository
+
+git pull	-- Pull latest changes down from repository
+
+git clone	-- Copy remote repository down to local folder
+
