@@ -1,12 +1,16 @@
 Sublime text commands
 
-cmd + /             Comment complete line
+cmd + /                     Comment complete line
 
-cmd + l             Selelct line
+cmd + l                     Selelct line
 
-cmd + B             Execute
+cmd + B                     Execute
 
-cmd + shift + P     Command Pallete
+cmd + shift + P             Command Pallete
 
-cmd + shift + D     Duplicate current line below
+cmd + shift + D             Duplicate current line below
+
+ctrl + cmd + down arrow     Move line down
+
+ctrl + cmd + up arrow       Move line up
 
