@@ -1,21 +1,29 @@
 Virtualenv
+===========
 
-Create new environment (From inside folder for environment)
+virtualenv envname                  Create new environment (From inside folder for environment)
 
-virtualenv envname
+source /envname/bin/activate        activate virtual environment
 
-activate virtual environment
-
-source /envname/bin/activate
-
-Deactivate environment
-
-deactivate
+deactivate                          Deactivate environment
 
 
 PIP
+===
 
-To show installed packages
+pip install                     Install packages.
+    download                    Download packages.
+    uninstall                   Uninstall packages.
+    freeze                      Output installed packages in requirements format.
+    list                        List installed packages.
+    show                        Show information about installed packages.
+    check                       Verify installed packages have compatible dependencies.
+    config                      Manage local and global configuration.
+    search                      Search PyPI for packages.
+    wheel                       Build wheels from your requirements.
+    hash                        Compute hashes of package archives.
+    completion                  A helper command used for command completion.
+    help                        Show help for commands.
 
-Which pip
+
 
