@@ -1,0 +1,14 @@
+import pdb          import the pdb module
+pdb.set_trace()     Halt execution and start the debugging tool at this point. Will open a new terminal window.
+
+Commands
+========
+
+l                   Display a code listing indicating the next line of code to execute
+n                   Execute the next line of code
+q                   Quit debugger
+c                   Stop debugger and continue with code execution
+'variable vame'     Enter the name of a variable to display the current value. If the variable name conflicts with a pdb command, pdb will execute the command
+                    and not display the value of variable. To be safe use command:  p 'variable name'
+p 'variable name'   Print the value of 'variable name'
+a                   Display value of all variables.
